@@ -6,7 +6,7 @@ Create Database and Schemas
 Script Purpose:
   This script creates a new database named 'DataWarehouse' after checking if it already exists.
   If the database exists, it is dropped and recreated. Additionally, the script sets up three schemas
-  within the database: 'bronze', 'silver', and 'gold'.
+  within the database: 'First_Layer', 'Middle_Layer', and 'Last_Layer'.
 
 WARNING:
   Running this script will drop the entire 'DataWarehouse' database if it exists.
